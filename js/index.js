@@ -8,7 +8,7 @@ window.onmousemove = (e) => {
 
 const audio = document.querySelector('audio');
 window.addEventListener('click', ()=> {
-    const volume = 0.05;
+    const volume = 0.08;
     audio.volume = volume;
     audio.play();
 })
